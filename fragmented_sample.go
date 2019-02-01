@@ -3,7 +3,7 @@ package jitterbuffer
 import (
 	"errors"
 
-	"github.com/pions/webrtc/pkg/rtp"
+	"github.com/pions/rtp"
 )
 
 const invalidSeqNum = -1

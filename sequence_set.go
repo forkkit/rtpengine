@@ -3,7 +3,7 @@ package jitterbuffer
 import (
 	"sort"
 
-	"github.com/pions/webrtc/pkg/rtp"
+	"github.com/pions/rtp"
 )
 
 type sequenceSet []*rtp.Packet

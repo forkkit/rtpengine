@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pions/webrtc/pkg/rtp"
+	"github.com/pions/rtp"
 )
 
 func newRTPTestPacket(sequenceNumber uint16, marker bool) *rtp.Packet {
