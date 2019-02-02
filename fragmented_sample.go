@@ -6,8 +6,6 @@ import (
 	"github.com/pions/rtp"
 )
 
-const invalidSeqNum = -1
-
 var (
 	errNextSeqNumTooSmall = errors.New("next sequence number less than first sequence number in the sample")
 	errNextSeqNumOverlaps = errors.New("next sequence number overlaps between first and last sequence number in the sample")
